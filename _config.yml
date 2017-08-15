@@ -1,6 +1,6 @@
 logo: # add logo name
 title: Daham's Blog
-description: > # this means to ignore newlines until "baseurl:"
+description:
   Let's study Finance & Computer Science
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
