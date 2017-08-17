@@ -3,7 +3,7 @@
   .chapters .chapter {
     position: relative;
     float: left;
-    width: 49%;
+    width: 48%;
     margin: 0 0.5% 1% 0.5%;
     overflow: hidden;
     transition: transform 0.4s; }
@@ -20,7 +20,7 @@
     left: 2.5%;
     bottom: 10%; }
     .chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
-      color: white; }
+      color: red; }
     .chapters .chapter_inner .chapter_number {
       font-size: 0.9rem;
       text-transform: uppercase;

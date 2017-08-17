@@ -1,6 +1,6 @@
 .chapters { padding: 2rem 0; }
 
-.chapters .chapter { position: relative; float: left; width: 49%; margin: 0 0.5% 1% 0.5%; overflow: hidden; transition: transform 0.4s; }
+.chapters .chapter { position: relative; float: left; width: 48%; margin: 0 0.5% 1% 0.5%; overflow: hidden; transition: transform 0.4s; }
 
 .chapters .chapter a { text-decoration: none; }
 
@@ -10,7 +10,7 @@
 
 .chapters .chapter_inner { position: absolute; left: 2.5%; bottom: 10%; }
 
-.chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title { color: white; }
+.chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title { color: red; }
 
 .chapters .chapter_inner .chapter_number { font-size: 0.9rem; text-transform: uppercase; margin: 0 0 1rem 0; }
 
