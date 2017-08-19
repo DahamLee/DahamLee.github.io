@@ -10,7 +10,7 @@
 
 .chapters .chapter_inner { position: absolute; left: 2.5%; bottom: 10%; }
 
-.chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title { color: red; }
+.chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title { color: #ffffff; background-color: rgba(0, 0, 0, 0.6); }
 
 .chapters .chapter_inner .chapter_number { font-size: 0.9rem; text-transform: uppercase; margin: 0 0 1rem 0; }
 

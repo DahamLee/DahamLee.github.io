@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.contact { width: 100%; height: 100vh; min-height: 700px; position: relative; background-image: url(../img/bg_contact.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; overflow: auto; }
+
+.container_contact { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 960px; max-width: 100%; }
+
+.container_contact .form_title { text-align: center; text-transform: uppercase; font-size: 1.2rem; color: #ffffff; }
+
+.container_contact .form_title::before, .container_contact .form_title::after { content: " — "; }
+
+.container_contact .form { width: 90%; margin: 0 auto; }
+
+.container_contact .form .form_group { margin-top: 3rem; text-align: center; }
+
+.container_contact .form input, .container_contact .form textarea { width: 100%; padding: 1rem; background-color: rgba(255, 255, 255, 0.4); color: #ffffff; font-weight: 300; transition: all .35s ease-in-out; }
+
+.container_contact .form input:focus, .container_contact .form textarea:focus { background-color: rgba(191, 127, 127, 0.6); }
+
+.container_contact .form .form_btn { width: inherit; color: #ffffff; text-transform: uppercase; outline: none; border: none; background-color: rgba(255, 255, 255, 0.4); padding: 1rem 3rem; border-radius: 3rem; cursor: pointer; transition: all .3s ease-in-out; }
+
+.container_contact .form .form_btn:hover { background-color: rgba(191, 127, 127, 0.6); color: #ffffff; }
+
+.container_contact .form .form_btn:active { transform: translateY(2px); }

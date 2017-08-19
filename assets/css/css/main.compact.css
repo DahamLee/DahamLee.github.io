@@ -768,7 +768,7 @@ template { display: none; }
 
 .highlight { background-color: #faf9f9; border-radius: 3px; margin: 0; }
 
-.highlighter-rouge { color: #e74b3c; font-weight: 400; border: 1px solid #607D8B; border-radius: 3px; padding: 0.1rem 0.5rem; }
+.highlighter-rouge { color: #000000; font-weight: 400; border: 1px solid #607D8B; border-radius: 3px; padding: 0.1rem 0.5rem; }
 
 .highlight .hll { background-color: #ffc; }
 
@@ -982,7 +982,7 @@ cite { color: #949494; }
 
 .main_header { padding: 2rem; display: flex; justify-content: space-between; align-items: center; background-color: #1c1c1c; z-index: 1; }
 
-.main_header .logo { color: #ffffff; margin: 0; font-size: 2rem; text-decoration: none; font-weight: 700; }
+.main_header .logo { color: #ffffff; margin: 0; font-size: 1.7rem; text-decoration: none; font-weight: 700; }
 
 .main_header .logo span { color: #c0334a; font-weight: 400; }
 
@@ -1010,7 +1010,7 @@ cite { color: #949494; }
 
 .chapters .chapter_inner { position: absolute; left: 2.5%; bottom: 10%; }
 
-.chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title { color: red; }
+.chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title { color: #ffffff; background-color: rgba(0, 0, 0, 0.6); }
 
 .chapters .chapter_inner .chapter_number { font-size: 0.9rem; text-transform: uppercase; margin: 0 0 1rem 0; }
 
@@ -1090,9 +1090,9 @@ cite { color: #949494; }
 
 .post header .post_description { position: absolute; left: 0; bottom: 0; }
 
-.post header .post_meta { display: inline-block; text-transform: uppercase; padding: 0.5rem 1rem; font-size: 1.1rem; margin: 0; color: #ffffff; background-color: rgba(210, 84, 105, 0.4); }
+.post header .post_meta { display: inline-block; text-transform: uppercase; padding: 0.5rem 1rem; font-size: 1.1rem; margin: 0; color: #ffffff; background-color: rgba(0, 0, 0, 0.6); }
 
-.post header .post_title { padding: 1rem; font-size: 2rem; margin: 0; background-color: rgba(192, 51, 74, 0.4); color: #ffffff; }
+.post header .post_title { padding: 1rem; font-size: 2rem; margin: 0; background-color: rgba(0, 0, 0, 0.6); color: #ffffff; }
 
 .post .entry_content { padding-bottom: 2rem; }
 
@@ -1140,7 +1140,7 @@ cite { color: #949494; }
 
 .recent_box .recent_list .recent_item:hover { opacity: .9; }
 
-.recent_box .recent_list .recent_item span { position: absolute; bottom: 10%; left: 2.5%; color: white; font-size: 1rem; }
+.recent_box .recent_list .recent_item span { position: absolute; bottom: 10%; left: 2.5%; color: white; background-color: rgba(0, 0, 0, 0.6); font-size: 1rem; }
 
 .recent_box .recent_list .recent_item_post_1 { background-image: url(../images/canyon.jpg); }
 

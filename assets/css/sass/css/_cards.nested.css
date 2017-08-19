@@ -20,7 +20,8 @@
     left: 2.5%;
     bottom: 10%; }
     .chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
-      color: red; }
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.6); }
     .chapters .chapter_inner .chapter_number {
       font-size: 0.9rem;
       text-transform: uppercase;

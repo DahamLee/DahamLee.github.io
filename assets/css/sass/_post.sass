@@ -1,4 +1,5 @@
 // - - - - - - - - - - Post Styles - - - - - - - - - - //
+@import "variables"
 
 .post_wrapper, .entry_content
   max-width: 900px
@@ -32,12 +33,12 @@
       font-size: 1.1rem
       margin: 0
       color: $white
-      background-color: rgba($highlight_lighten, .4)
+      background-color: rgba($highlight_darken, .6)
     .post_title
       padding: 1rem
       font-size: 2rem
       margin: 0
-      background-color: rgba($highlight, .4)
+      background-color: rgba($highlight_darken, .6)
       color: $white
 
   .entry_content
@@ -129,7 +130,7 @@
       display: inline-block
       width: 31%
       margin-left: 1.5%
-      margin-bottom: 1.5%      
+      margin-bottom: 1.5%
       height: 180px
       background-position: center
       background-size: cover
@@ -141,6 +142,7 @@
         bottom: 10%
         left: 2.5%
         color: white
+        background-color: rgba($highlight_darken, 0.6)
         font-size: 1rem
     .recent_item_post_1
       background-image: url(../images/canyon.jpg)

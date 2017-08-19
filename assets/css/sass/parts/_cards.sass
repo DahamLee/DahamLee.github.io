@@ -1,5 +1,5 @@
 // - - - - - - - - - - Cards Styles - - - - - - - - - - //
-
+@import "variables"
 .chapters
   padding: 2rem 0
   .chapter
@@ -23,7 +23,8 @@
     left: 2.5%
     bottom: 10%
     .chapter_number, .chapter_title
-      color: red
+      color: $white
+      background-color: rgba($highlight_darken, .6)
     .chapter_number
       font-size: 0.9rem
       text-transform: uppercase

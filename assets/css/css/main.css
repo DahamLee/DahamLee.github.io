@@ -1864,7 +1864,7 @@ template {
 }
 
 .highlighter-rouge {
-  color: #e74b3c;
+  color: #000000;
   font-weight: 400;
   border: 1px solid #607D8B;
   border-radius: 3px;
@@ -2275,7 +2275,7 @@ cite {
 .main_header .logo {
   color: #ffffff;
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-decoration: none;
   font-weight: 700;
 }
@@ -2351,7 +2351,8 @@ cite {
 }
 
 .chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
-  color: red;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .chapters .chapter_inner .chapter_number {
@@ -2606,14 +2607,14 @@ cite {
   font-size: 1.1rem;
   margin: 0;
   color: #ffffff;
-  background-color: rgba(210, 84, 105, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .post header .post_title {
   padding: 1rem;
   font-size: 2rem;
   margin: 0;
-  background-color: rgba(192, 51, 74, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #ffffff;
 }
 
@@ -2758,6 +2759,7 @@ cite {
   bottom: 10%;
   left: 2.5%;
   color: white;
+  background-color: rgba(0, 0, 0, 0.6);
   font-size: 1rem;
 }
 
