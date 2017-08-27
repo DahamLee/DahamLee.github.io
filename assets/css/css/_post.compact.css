@@ -61,7 +61,7 @@
 
 .recent_box .recent_list .recent_item:hover { opacity: .9; }
 
-.recent_box .recent_list .recent_item span { position: absolute; bottom: 10%; left: 2.5%; color: white; background-color: rgba(0, 0, 0, 0.6); font-size: 1rem; }
+.recent_box .recent_list .recent_item div { width: 100%; position: absolute; bottom: 0%; color: white; background-color: rgba(0, 0, 0, 0.6); font-size: 1rem; }
 
 .recent_box .recent_list .recent_item_post_1 { background-image: url(../images/canyon.jpg); }
 

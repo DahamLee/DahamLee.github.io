@@ -8,10 +8,13 @@ layout: main
       {% if post.img %}
       <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
       {% endif %}
+      <div class="chapter_inner">
+        <span class="chapter_number">{{post.date | date: '%Y, %b %d'}}</span>
+        <div class="chapter_title">
+          <span class="chapter_title_upper">{{post.title}}</span><br>
+          <span class="chapter_title_lower">{{post.description}}</span>
+        </div>
+      </div>
     </a>
-    <div class="chapter_inner">
-      <span class="chapter_number">{{post.date | date: '%Y, %b %d'}}</span>
-      <h3 class="chapter_title">{{post.title}}</h3>
-    </div>
   </div>
 {% endfor %}

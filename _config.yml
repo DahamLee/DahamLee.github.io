@@ -42,6 +42,7 @@ paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 plugins: [jekyll-paginate, jekyll-sitemap]
 
 include: [_pages]

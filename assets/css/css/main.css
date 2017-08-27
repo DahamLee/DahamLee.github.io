@@ -1858,17 +1858,17 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
+  background-color: #e8e8e8;
   border-radius: 3px;
   margin: 0;
+  overflow: auto;
+  padding-left: 0.3rem;
 }
 
 .highlighter-rouge {
-  color: #000000;
-  font-weight: 400;
-  border: 1px solid #607D8B;
-  border-radius: 3px;
-  padding: 0.1rem 0.5rem;
+  background-color: #e8e8e8;
+  border-radius: 2px;
+  padding: 0 0.3rem;
 }
 
 .highlight .hll {
@@ -2197,7 +2197,7 @@ p {
   font-size: 1.1rem;
   line-height: 1.75rem;
   margin: 0 0 1.75rem;
-  color: #525c65;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -2631,7 +2631,7 @@ cite {
 .post_footer span {
   text-transform: uppercase;
   font-size: 0.8rem;
-  color: #525c65;
+  color: #000000;
 }
 
 .post_footer a {
@@ -2754,10 +2754,10 @@ cite {
   opacity: .9;
 }
 
-.recent_box .recent_list .recent_item span {
+.recent_box .recent_list .recent_item div {
+  width: 100%;
   position: absolute;
-  bottom: 10%;
-  left: 2.5%;
+  bottom: 0%;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   font-size: 1rem;

@@ -1,0 +1,20 @@
+.main_header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+  z-index: 1; }
+  .main_header .logo {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 700; }
+    .main_header .logo span {
+      color: #c0334a;
+      font-weight: 400; }
+  .main_header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2rem; }

@@ -766,9 +766,9 @@ template { display: none; }
 
 .slideOutUp { animation-name: slideOutUp; }
 
-.highlight { background-color: #faf9f9; border-radius: 3px; margin: 0; }
+.highlight { background-color: #e8e8e8; border-radius: 3px; margin: 0; overflow: auto; padding-left: 0.3rem; }
 
-.highlighter-rouge { color: #000000; font-weight: 400; border: 1px solid #607D8B; border-radius: 3px; padding: 0.1rem 0.5rem; }
+.highlighter-rouge { background-color: #e8e8e8; border-radius: 2px; padding: 0 0.3rem; }
 
 .highlight .hll { background-color: #ffc; }
 
@@ -956,7 +956,7 @@ template { display: none; }
 
 body { font-family: "Lato", sans-serif; -webkit-font-smoothing: antialiased; background-color: #262626; margin: 0; }
 
-p { font-size: 1.1rem; line-height: 1.75rem; margin: 0 0 1.75rem; color: #525c65; font-weight: 400; }
+p { font-size: 1.1rem; line-height: 1.75rem; margin: 0 0 1.75rem; color: #000000; font-weight: 400; }
 
 blockquote { font-size: 1.2rem; font-style: italic; border-left: 3px solid #c25b6c; padding-left: 2rem; margin: 0 0 1.75rem; color: #333333; }
 
@@ -1098,7 +1098,7 @@ cite { color: #949494; }
 
 .post_footer { padding: 2rem 0; background-color: #ffffff; border-top: 2px solid #6e6e6e; }
 
-.post_footer span { text-transform: uppercase; font-size: 0.8rem; color: #525c65; }
+.post_footer span { text-transform: uppercase; font-size: 0.8rem; color: #000000; }
 
 .post_footer a { text-decoration: none; margin-left: 0.1rem; margin-bottom: 0.3rem; padding: 0.5rem 1rem; color: #6e6e6e; background-color: #e6e6e6; display: inline-block; transition: all .35s ease-in-out; }
 
@@ -1140,7 +1140,7 @@ cite { color: #949494; }
 
 .recent_box .recent_list .recent_item:hover { opacity: .9; }
 
-.recent_box .recent_list .recent_item span { position: absolute; bottom: 10%; left: 2.5%; color: white; background-color: rgba(0, 0, 0, 0.6); font-size: 1rem; }
+.recent_box .recent_list .recent_item div { width: 100%; position: absolute; bottom: 0%; color: white; background-color: rgba(0, 0, 0, 0.6); font-size: 1rem; }
 
 .recent_box .recent_list .recent_item_post_1 { background-image: url(../images/canyon.jpg); }
 

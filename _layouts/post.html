@@ -11,7 +11,7 @@ layout: default
       </div>
       <div class="post_description">
         <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
-        <h1 class="post_title">{{page.title}}</h1>
+        <h1 class="post_title">{{page.title}}<br>{{page.description}}</h1>
       </div>
     </header> <!-- End Header -->
 
@@ -73,7 +73,8 @@ layout: default
       <div class="recent_list">
         {% for post in site.posts offset:0 limit:6 %}
           {% if post.title %}
-            <a href="{{ root_url }}{{ post.url }}" class="recent_item" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )"><span>{{ post.title }}</span></a>
+            <a href="{{ root_url }}{{ post.url }}" class="recent_item" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+            <div>{{post.title}}<br>{{post.description}}</div>
           {% endif %}
         {% endfor %}
       </div>
