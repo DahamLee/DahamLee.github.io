@@ -27,6 +27,7 @@ tag: [Derivatives]
 * hedging: 리스크를 감소 시키기 위해
 * speculation: 예측, 파생상품의 position을 취해서 시장의 움직임에 bet 하기 위해
 * market making: 시장에 유동성을 제공함으로써 거래 차익을 얻기 위해 
+* arbitrage: -
 
 ### 파생 상품 시장
 
